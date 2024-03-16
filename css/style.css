@@ -520,3 +520,123 @@
 .main-team .team-cards .team-card .card-socials a i:hover{
     background-color: var(--secondary);
 }
+
+/* Status */
+
+.main-status{
+    background-image: url(../img/bg-section.png);
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    
+}
+
+.main-status::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 196, 0, 0.8);
+}
+
+.main-status .status-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--white-color);
+    position: relative;
+    z-index: 1;
+    gap: 50px;
+    text-align: center;
+}
+
+.main-status .status-inner .status-item i{
+    font-size: 64px;
+    padding-bottom: 30px;
+}
+
+.main-status .status-inner .status-item p{
+    font-size: 46px;
+}
+
+.main-status .status-inner .status-item h2{
+    font-size: 36px;
+}
+
+/* Posts */
+
+.main-posts{
+    padding: 100px 0;
+}
+
+.main-posts .posts-head{
+    text-align: center;
+    color: var(--text-color);
+    max-width: 700px;
+    margin: auto;
+}
+
+.main-posts .posts-head h1{
+    font-size: 64px;
+}
+
+.main-posts .posts-head p{
+    font-size: 28px;
+    padding-bottom: 50px;
+}
+
+.main-posts .posts-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-posts .posts-cards .posts-card{
+    max-width: 350px;
+    transition: .2s ease-out;
+}
+
+.main-posts .posts-cards .posts-card img{
+    width: 100%;
+}
+
+.main-posts .posts-cards .posts-card:hover{
+    box-shadow: 8px 16px 16px #e4e4e4;
+}
+
+.main-posts .posts-cards .posts-card .card-inner{
+    border: 2px solid #e4e4e4;
+    margin-top: -10px;
+    padding: 30px;
+    color: var(--text-color);
+}
+
+.main-posts .posts-cards .posts-card .card-inner h2{
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.main-posts .posts-cards .posts-card .card-inner span{
+    color: var(--tertiary);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-posts .posts-cards .posts-card .card-inner p{
+    padding: 20px 0;
+    line-height: 1;
+}
+
+.main-posts .posts-cards .posts-card .card-inner a{
+    color: var(--tertiary);
+    font-size: 18px;
+    font-weight: bold;
+    transition: .2s ease-out;
+}
+
+.main-posts .posts-cards .posts-card .card-inner a:hover{
+    color: var(--color-hover);
+}
