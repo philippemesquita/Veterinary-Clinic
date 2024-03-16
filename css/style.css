@@ -39,7 +39,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .main-header .main-nav .nav-items ul{
@@ -109,7 +109,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .main-header .main-home .cta-home{
@@ -174,7 +174,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .main-section-01 .cta-section-01{
@@ -250,7 +250,7 @@
 }
 
 .main-services .services{
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .main-services .services .services-head{
@@ -310,7 +310,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .main-section-02 .cta-section-02{
@@ -387,7 +387,7 @@
 }
 
 .main-price .price{
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .main-price .price .price-head{
@@ -465,7 +465,7 @@
 /* Team */
 
 .main-team{
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .main-team .team-head{
@@ -527,7 +527,7 @@
     background-image: url(../img/bg-section.png);
     background-position: center;
     background-size: cover;
-    padding: 200px 0;
+    padding: 200px 10px;
     position: relative;
     
 }
@@ -569,7 +569,7 @@
 /* Posts */
 
 .main-posts{
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .main-posts .posts-head{
@@ -639,4 +639,95 @@
 
 .main-posts .posts-cards .posts-card .card-inner a:hover{
     color: var(--color-hover);
+}
+
+/* Footer */
+
+.main-footer{
+    background-color: #333333;
+    color: var(--white-color);
+}
+
+.main-footer .footer-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 10px;
+}
+
+.main-footer .footer-inner .footer-about,
+.main-footer .footer-inner .footer-services{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer .footer-inner .footer-about h2,
+.main-footer .footer-inner .footer-services h2{
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.main-footer .footer-inner .footer-about a,
+.main-footer .footer-inner .footer-services a{
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.main-footer .footer-inner .footer-input{
+    text-align: right;
+}
+
+.main-footer .footer-inner .footer-input h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.main-footer .footer-inner .footer-input p{
+    padding-bottom: 20px;
+}
+
+.main-footer .footer-inner .footer-input .footer-send{
+    background-color: var(--primary);
+    padding: 8px;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+.main-footer .footer-inner .footer-input .footer-send .input-send{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+    color: var(--white-color);
+}
+
+.main-footer .footer-inner .footer-input .footer-send .btn-send{
+    border: none;
+    background-color: var(--tertiary);
+    color: var(--white-color);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.main-footer .footer-inner .footer-input .footer-send .btn-send i{
+    font-size: 18px;
+}
+
+.main-footer .footer-inner .footer-input .footer-socials i{
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: var(--text-color);
+    background-color: var(--white-color);
 }
