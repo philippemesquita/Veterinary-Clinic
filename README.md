@@ -36,4 +36,4 @@ O projeto possui as seguintes funcionalidades:
 
 ## Licença
 
-Esse projeto está sob a licença MIT - acesse os detalhes [LICENSE.md](https://github.com/philippemesquita/Nexcent/blob/main/LICENSE).
+Esse projeto está sob a licença MIT - acesse os detalhes [LICENSE.md](https://github.com/philippemesquita/Veterinary-Clinic/blob/main/LICENSE).
